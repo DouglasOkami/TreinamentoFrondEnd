@@ -6,17 +6,20 @@ const listaDeDestinos = new Array(
 
 const idade = 18;
 const estaAcompanhada = false;
-const temPassagem = true;
+let temPassagem = false;
+const destino = "Salvador"
 
 console.log("Possiveis destinos :");
 console.log(listaDeDestinos);
 
-if (idade >= 18 || (estaAcompanhada == true)) {
+if (idade >= 18 || estaAcompanhada == true) {
     console.log("Boa Viagem");
     listaDeDestinos.splice(2, 1);
+    temPassagem = true;
 }
 else {
     console.log("Comprador menor de idade não posso vender");
+    temPassagem = false;
 }
 
 console.log("Embarque: \n");
