@@ -30,3 +30,30 @@ li{
     display: block;
     float: left;
 }
+
+#bloco01,#bloco02,#bloco03{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    font: bold 2em/8 sans-serif;
+    text-align: center;
+    color: #FFF;
+}
+#bloco01{
+    background: #EE0000;
+    left: 0;
+    top: 0;
+
+}
+#bloco02{
+   
+    background: #0000DD;
+    left: 30px;
+    top: 150px;
+}
+#bloco03{
+    
+    background: #00CC00;
+    left: 60px;
+    top: 300px;
+}
