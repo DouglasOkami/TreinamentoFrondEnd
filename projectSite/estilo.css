@@ -2,6 +2,11 @@
 body{
     font: normal 16px/22px Open Sans;
 }
+a{
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+}
 /*titulo*/
 h2{
 font-size: 2.5em;
@@ -14,8 +19,7 @@ font-size: 1.5em;
 
     .hero-book{
         background: #7738c9;
-        height: 600px;
-        padding: 0 60px;
+        padding: 90px 60px;
         color: #FFF;
     }
     .title-book h1{
@@ -36,7 +40,16 @@ font-size: 1.5em;
         padding: 15px;
         display: inline-block;
     }
+    .wrap-book{
+        position: relative;
+    }
+    .wrap-book .book{
+        width: 100%;
+    }
     .wrap-book p{
+        position: absolute;
+        top: -10%;
+        left: -7%;
         background: #FFB300 0% 0% no-repeat;
         width: 68px;
         height: 68px;
@@ -50,5 +63,22 @@ font-size: 1.5em;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .wrap_BTN{
+
+    }
+    .BTN-orange{
+        background: #FFB300;
+        width: 100%;
+        padding: 15px 0;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        box-shadow:
+        rgb(139, 7, 226) 4px 10px,
+         rgb(255, 255, 255) 7px 12px,
+         rgb(139, 7, 226) 14px 20px,
+         rgb(255, 255, 255) 17px 23px;
     }
 }
