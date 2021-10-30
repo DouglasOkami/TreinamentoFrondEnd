@@ -21,6 +21,10 @@ font-size: 1.5em;
         background: #7738c9;
         padding: 90px 60px;
         color: #FFF;
+        display: grid;
+    }
+    .title-book{
+        grid-area: author-wrap;
     }
     .title-book h1{
         font-size: 4em;
